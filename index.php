@@ -18,6 +18,12 @@
             background-color: coral;
             color: black;
         }
+        .Logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+            
+            }
     </style>
 </head>
 <body style="background-color: black;">
@@ -26,6 +32,7 @@
         {
             text-decoration: none;
         }
+        
     </style>
     <div style="background-color: rgb(29, 78, 185);color: aliceblue;">
         <table id="header" border="0" width="100%" 
@@ -34,6 +41,7 @@
         <table border="0" cellpadding="15"
                 cellspacing="0" width="90%" align="center" >
         <tr>
+            <td><img class="Logo" src="MY photo.webp" alt="Avatar" ; ></td>
             <td><font face="Comic sans MS" size="6" >MY PORTFOLIO</font> </td>
             <td><font face="cursive" size="4">Home</font></td>
             <td><font face="cursive" size="4">About</font></td>
@@ -158,31 +166,27 @@ cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
         cellspacing="0" width="90%" align="center">
         <tr>
             <td>
-              <a href="#"><b>Linkdin</b></a> 
+              <a href="http://www.linkedin.com/in/sritam-mahapatro-702a4721b"><b>Linkdin</b></a> 
             </td>
             <td>|</td>
             <td>
-              <a href="#"><b>Github</b></a>   
+              <a href="https://github.com/SritamMahapatro"><b>Github</b></a>   
              </td>
              <td>|</td>
             <td>
-              <a href="#"><b>HackerRank</b></a> 
+              <a href="https://www.hackerrank.com/Sritam_21"><b>HackerRank</b></a> 
             </td>
             <td>|</td>
             <td>
-              <a href="#"><b>Facebook</b> </a> 
+              <a href="https://www.facebook.com/sritam.mahapatro.1"><b>Facebook</b> </a> 
             </td>
             <td>|</td>
             <td>
-              <a href="#"><b>Instagram</b> </a> 
+              <a href="https://www.instagram.com/sritam_mahapatro_21/"><b>Instagram</b> </a> 
             </td>
             <td>|</td>
             <td>
-               <a href="#"><b>Twitter</b></a></td>
-            <td>|</td>
-            <td>
-               <a href="#"><b>Email</b></a> 
-            </td>
+               <a href="https://twitter.com/Sritam_21"><b>Twitter</b></a></td>
         </tr>
     </table>
     </tr>
