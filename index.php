@@ -24,9 +24,11 @@
   border-radius: 50%;
             
             }
+            
+        
     </style>
 </head>
-<body style="background-color: black;">
+<body style="background-color: black;" >
     <style>
         *
         {
@@ -34,20 +36,24 @@
         }
         
     </style>
-    <div style="background-color: rgb(29, 78, 185);color: aliceblue;">
+    <div style="background-color: rgb(29, 78, 185);color: rgb(235, 235, 235);">
         <table id="header" border="0" width="100%" 
 		cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
             <tr>
         <table border="0" cellpadding="15"
                 cellspacing="0" width="90%" align="center" >
-        <tr>
+        <tr style="color: aliceblue;">
             <td><img class="Logo" src="MY photo.webp" alt="Avatar" ; ></td>
-            <td><font face="Comic sans MS" size="6" >MY PORTFOLIO</font> </td>
-            <td><font face="cursive" size="4">Home</font></td>
-            <td><font face="cursive" size="4">About</font></td>
-            <td><font face="cursive" size="4">Projects</font></td>
-            <td><font face="cursive" size="4">Achievements</font></td>
-            <td><font face="cursive" size="4">Contact</font></td>
+            <td><strong  style=" font-family: cursive; font-size: xx-large;color: aqua;" >MY PORTFOLIO</strong> </td>
+            <td><strong  style=" font-family: cursive; font-size: large;background-color: rgb(251, 255, 0);border-radius: 3px;"><a name="A" href="#Home">Home</a></strong></td>
+            <td>|</td>
+            <td><strong style=" font-family: cursive; font-size: large;background-color: rgb(251, 255, 0);border-radius: 3px;"><a href="#About">About</a></strong></td>
+            <td>|</td>
+            <td><strong style=" font-family: cursive; font-size: large;background-color: rgb(251, 255, 0);border-radius: 3px;"><a href="#Projects">Projects</a></strong></td>
+            <td>|</td>
+            <td><strong style=" font-family: cursive; font-size: large;background-color: rgb(251, 255, 0);border-radius: 3px;"><a href="#Achievements">Achievements</a></strong></td>
+            <td>|</td>
+            <td><strong style=" font-family: cursive; font-size: large;background-color: rgb(251, 255, 0);border-radius: 3px;"><a href="#Contact">Contact</a></strong></td>
         </tr>
     </table>
             </tr>
@@ -60,12 +66,14 @@
     <h2>Hello GirlScript Odisha team!</h2>
     <hr></center>
     <center>
-    <h1>About</h1>
+    <h1><a name="About">About</a></h1>
     </center>
     <center>
     <table>
         <tr>
             <td><img src="MY photo.webp" alt=""></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+            
             <td>
                 <p style="padding: 20px; width: 500px;">Hello and welcome to my cumulative Portfolio I am Sritam Mahapatro. I am a student at Gandhi  Gandhi Institute of Engineering and Technology.I am currently persuing B.tech degree under the domain of Computer science. I am making this portfolio not only to display the works that I have studied in the Webinar, but also to show how my knowlege has improved throughout the Webinar. At the beginning of this course I was not the most confident in my web Development skills. I made it a goal to become a better Web Developer . I am making this portfolio in order to show that I have made progress in learning, and have grown in to a much more confident Developer than I was before.</p>
             </td>
@@ -76,15 +84,17 @@
     </div>
     <div style="background-color: blueviolet;">
         <br><br>
-    <center><font style="font-size: xx-large;"><b>Projects</b></font> 
+    <center><font style="font-size: xx-large;"><b><a name="Projects">Projects</a></b></font> 
         <br><br>
         <table cellpadding="20" cellspacing="0">
             <tr>
                 <td><img src="Login form.png" alt="" height="250" width="450" ></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                 <td><img src="Registration form.png" alt="" height="250" width="450"></td>
             </tr>
             <tr>
                 <td><center style="font-size: larger;"><b>Login form</b> </center></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                 <td><center style="font-size: larger;"><b>Registration form</b> </center></td>
             </tr>
             
@@ -94,7 +104,7 @@
 </div>
 <div style="background-color: black;color: aliceblue;">
     <br><br><br>
-   <h1><center>Achievements</center></h1>  
+   <h1><center><a name="Achievements">Achievements</a></center></h1>  
     <ul>
         <li>GDG Devfest India 2021
             <ul>
@@ -133,7 +143,7 @@
         <form>
             <fieldset class="container">
                 
-                 <h1><i></i><B style="font-size: larger;font-family: cursive;">Contact</B></i></h1>
+                 <h1><i></i><B style="font-size: larger;font-family: cursive;"><a name="Contact">Contact</a></B></i></h1>
                  <div style="text-align: left;">
                     <table>
                         <tr>
@@ -187,7 +197,10 @@ cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
             <td>|</td>
             <td>
                <a href="https://twitter.com/Sritam_21"><b>Twitter</b></a></td>
-        </tr>
+               <td>|</td>
+            <td>
+               <a href="mailto:sritammahapatro0@gmail.com"><b>Email</b></a>
+            </td>
     </table>
     </tr>
 </table>
